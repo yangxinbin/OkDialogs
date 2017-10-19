@@ -10,8 +10,8 @@ import android.widget.Toast;
  */
 
 public class OKDialog {
-    private static final int WARNINGMESSAGE = 0;
-    private static final int SLECTMESSAGE = 1;
+    public static final int WARNINGMESSAGE = 0;
+    public static final int SLECTMESSAGE = 1;
     AlertDialog.Builder builder;
 
     public void dialogMessage(int type, Context context,int intIcon,String title,String message,String[] slect){
