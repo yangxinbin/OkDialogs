@@ -18,9 +18,12 @@ public class OKDialog {
         switch (type){
             case WARNINGMESSAGE:
                 warnDialog(context,intIcon,title,message);
+                break;
             case SLECTMESSAGE:
                 slectDialog(context,intIcon,title,slect);
-
+                break;
+            default:
+                break;
         }
 
 
